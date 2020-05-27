@@ -1,4 +1,4 @@
-﻿**Task1**
+﻿Task1
 
 
 1. What is git and gitHub?
@@ -21,7 +21,7 @@ iii. GitBucket
 iv Gitlab
 
 
-**Task2**
+Task2
 
 
 a. How git workflow works?
@@ -45,47 +45,3 @@ d. Why is git diff used?
 
 e. Can we leave the commit message as blank?
    Yes we can leave the commit message as blank and iCan we leave the commit message as blank?t can be done by using the command: git commit -a --allow-empty-message -m ""
-
-**task3**
-
-A. What is meant by the term fork and clone?
-
-
- Fork:
-A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
-
-
-Clone :
-Clone means to copy.
-Cloning basically means you want to get a local copy of the code present in the repository. After cloning you can then do whatever changes you like in the code and then you can pull the changes back to the repository.
-
-
-
-B. What are branches in github ?
-
- Ans - Git branch is a feature in git used for separating a feature or part of code from you your master in order not to mess something in your main code like suppose you have a website as a project in git and you want to add a new feature to it so you
- do it by creating a new branch for it so your main code remain the same as it and once you complete it then you merge it with your master.
-
-
-
-C. What is PR ?
-
-Ans - A pull request is submitted when you’ve worked on some code from a particular branch and want to inform the others of the changes you’ve made. 
-people can be assigned to review and subsequently approve the request before your changes can be incorporated into the branch.
-
-
-
-D. Can we delete the master branch if not why?
-
-Ans - yes we can delete the master branch , but only after creating a new branch and set that branch as the default one.
-
-
-
-
-E. How can we delete a branch ?
- 
-Ans - Deleting a Branch
-Delete a remote branch -
-git push origin --delete <branch> 
-Delete a local branch -
-git branch -d <branch>
